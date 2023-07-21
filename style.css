@@ -14,6 +14,9 @@ nav {
 	justify-content: space-between;
 	background: #1876f2;
 	padding: 5px 5%;
+	position: sticky;
+	top: 0;
+	z-index: 100;
 }
 
 .logo {
@@ -81,4 +84,30 @@ nav {
 	position: absolute;
 	top: 0;
 	right: 0;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding: 13px 5%;
+}
+
+.left-sidebar {
+	background: #cbdffa;
+	flex-basis: 25%;
+	position: sticky;
+	top: 70px;
+	align-self: flex-start;
+}
+
+.right-sidebar {
+	background: #cbdffa;
+	flex-basis: 25%;
+	position: sticky;
+	top: 70px;
+	align-self: flex-start;
+}
+
+.main-content {
+	flex-basis: 47%;
 }
